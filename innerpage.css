@@ -1,0 +1,134 @@
+.header{
+    margin: 1rem 0;
+    margin-bottom: 4rem;
+    line-height: 2rem;
+}
+.header-intro{
+    line-height: 3.5rem;
+    font-size: 35px;
+    padding: 2rem 0;
+    font-weight: normal;
+   
+}
+h1, h3, h4, h5, a{
+    font-family: montserrat;
+    color: white;
+}
+.nav-link {
+    color: white !important;
+} 
+.link{
+    color: white;
+    display: block;
+}
+a.link:hover{
+    color: black;
+}
+.sm{
+    padding: 2px;
+    margin-left:2px;
+}
+.sidebarp{
+    background-color: rgb(140, 25, 25, 0.85);
+    opacity: 85%;
+    min-height:100%
+
+}
+.colorbg{
+    background-color: #d4d4d4;
+}
+.bgimg{
+    overflow: hidden;
+    background-image: url("./assets/leaf.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;  
+}
+.avatar{
+width: 80px;
+border: 1px solid  #AF2222;
+display: block;
+opacity: none;
+}
+.btnhome{
+    background-color:#8c1919;
+    color: white; 
+    border-style: none;
+    margin: 0 20px;
+    margin-top: 20px;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.btnhome:hover{
+    background: white;
+    color: #8c1919;
+   
+}
+a.pr-link{
+    color:black;
+}
+a.pr-link:hover{
+    color: #8c1919;
+    text-decoration: none;
+}
+.headerpl{
+    margin-top: 3rem;
+}
+.tag-btn{
+    background-color:#8c1919;
+    color: white; 
+    border: none;
+}
+/* div{
+    border: 1px solid black;
+} */
+.pr-img{
+    height:300px;
+    margin-top: 2rem;
+}
+a.btnmore{
+    color: #8c1919;
+}
+a.btnmore:hover{
+    background: #8c1919;
+    color: white;
+}
+@media screen and (max-width: 900px) { 
+    
+    .sidebar{
+        background-color: transparent;
+        min-height:30%
+    }
+    .thebg{
+        background-color: rgb(140, 25, 25, 0.85);
+        opacity: 85%
+    }
+    .mynav{
+        display: none;
+    }
+    .contentblock{
+        margin-top: 0rem;
+    }
+    h1, h2, h4{
+        text-align:center;
+    }
+    .mediap{
+        text-align:center;
+    }
+    .introcls, .mediaabt{
+        text-align:center;
+    }
+    .btnmedia{
+        flex-direction: column;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .mediadisplay{
+        display:none
+    }
+  } 
+
+
+/* div{
+    border: 1px solid white;
+} */
