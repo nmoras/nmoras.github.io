@@ -119,4 +119,11 @@ a.quicklink:hover{
     .mediadisplay{
         display:none
     }
+    .quicklink{
+        color: white;
+    }
+    a.quicklink:hover{
+        color: #8c1919;
+        text-decoration: none;
+    }
   } 
