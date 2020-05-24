@@ -79,6 +79,13 @@ opacity: none;
 .headerpl{
     margin-top: 3rem;
 }
+.quicklink{
+    color: white;
+}
+a.quicklink:hover{
+    color: #8c1919;
+    text-decoration: none;
+}
 /* div{
     border: 1px solid white;
 } */
