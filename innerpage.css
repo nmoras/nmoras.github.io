@@ -94,7 +94,7 @@ a.btnmore:hover{
     color: white;
 }
 @media screen and (max-width: 900px) { 
-    
+       
     .sidebar{
         background-color: transparent;
         min-height:30%

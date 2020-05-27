@@ -59,8 +59,9 @@ opacity: none;
     border-radius: 10px;
 }
 .btnhome:hover{
-    background: white;
-    color: #8c1919;
+    
+    transform: scale(1.50);
+    transition: .5s ease
    
 }
 .contentblock{
@@ -83,14 +84,31 @@ opacity: none;
     color: white;
 }
 a.quicklink:hover{
-    color: #8c1919;
     text-decoration: none;
+    font-weight: bold;  
+    color: white; 
+}
+.bgcolor{
+    background: black;
+    opacity: 60%;
+    margin-bottom: 10px;
+
 }
 /* div{
     border: 1px solid white;
 } */
 @media screen and (max-width: 900px) { 
-    
+    /* body{
+        color: maroon;
+    } */
+    .bgimg{
+        overflow: hidden;
+        background-image: url("./assets/leaf768.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 100%;  
+        
+    }
     .sidebar{
         background-color: transparent;
         min-height:30%
@@ -123,7 +141,8 @@ a.quicklink:hover{
         color: white;
     }
     a.quicklink:hover{
-        color: #8c1919;
+        color: white;
         text-decoration: none;
+        font-weight: bold;
     }
   } 
