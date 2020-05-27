@@ -77,6 +77,10 @@ opacity: none;
 .boldtxt:hover{
     color:#8c1919;
 }
+.skilltxt{
+    font-size:20px;
+    
+}
 .headerpl{
     margin-top: 3rem;
 }
