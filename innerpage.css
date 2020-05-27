@@ -86,6 +86,10 @@ a.pr-link:hover{
     height:300px;
     margin-top: 2rem;
 }
+.pr-img:hover{
+    transform: scale(1.50);
+    transition: .5s ease
+}
 a.btnmore{
     color: #8c1919;
 }
