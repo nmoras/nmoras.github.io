@@ -90,12 +90,22 @@ a.pr-link:hover{
     transform: scale(1.50);
     transition: .5s ease
 }
+.btnmore{
+    border-color: white;   
+    color:white;
+}
+.btnmore:hover{
+    background: #8c1919;
+}
 a.btnmore{
     color: #8c1919;
+    
 }
+
 a.btnmore:hover{
-    background: #8c1919;
     color: white;
+    text-decoration: none;
+    background: #8c1919;
 }
 @media screen and (max-width: 900px) { 
        
