@@ -33,7 +33,7 @@ a.link:hover{
 }
 .sidebar{
     background-color: rgb(140, 25, 25, 0.85);
-    opacity: 85%;
+ 
     min-height:100%
 }
 .bgimg{
@@ -93,8 +93,7 @@ a.quicklink:hover{
     color: white; 
 }
 .bgcolor{
-    background: black;
-    opacity: 60%;
+    background: rgb(0, 0, 0, 0.6);
     margin-bottom: 10px;
 
 }

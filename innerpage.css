@@ -30,7 +30,7 @@ a.link:hover{
 }
 .sidebarp{
     background-color: rgb(140, 25, 25, 0.85);
-    opacity: 85%;
+  
     min-height:100%
 
 }
@@ -115,7 +115,7 @@ a.btnmore:hover{
     }
     .thebg{
         background-color: rgb(140, 25, 25, 0.85);
-        opacity: 85%
+    
     }
     .mynav{
         display: none;
