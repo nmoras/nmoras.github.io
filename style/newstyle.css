@@ -4,7 +4,7 @@
     line-height: 2rem;
 }
 .cls{
-    min-height: 145px;
+    min-height: auto;
 }
 .header-intro{
     line-height: 3.5rem;
