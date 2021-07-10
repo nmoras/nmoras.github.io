@@ -130,6 +130,7 @@ a.quicklink:hover{
     }
     h1{
         text-align:center;
+        min-height: 50px;
     }
     .introcls{
         text-align:center;
