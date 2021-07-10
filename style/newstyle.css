@@ -3,6 +3,9 @@
     margin-bottom: 4rem;
     line-height: 2rem;
 }
+.cls{
+    min-height: 145px;
+}
 .header-intro{
     line-height: 3.5rem;
     font-size: 35px;
