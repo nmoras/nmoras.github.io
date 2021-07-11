@@ -72,6 +72,9 @@ opacity: none;
     padding: 5px 25px;
     border-radius: 10px;
 }
+.btnmedia{
+    min-width: 55px;
+}
 .btnhome:hover{
     
     text-decoration: underline;
